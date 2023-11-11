@@ -1,0 +1,12 @@
+.user__list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.number__list{
+    margin: 0.5rem;
+}

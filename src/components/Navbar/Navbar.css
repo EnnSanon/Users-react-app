@@ -1,0 +1,46 @@
+.navbar{
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(61, 60, 60);
+    color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.navbar h1{
+    margin: 0;
+}
+
+.informacion{
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    margin: 0.1;
+}
+
+.informacion a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ 
+
+.btn__burger{
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+.button{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+ }
+
+
+
